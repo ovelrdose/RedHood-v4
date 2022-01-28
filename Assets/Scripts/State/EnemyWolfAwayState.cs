@@ -19,11 +19,12 @@ public class EnemyWolfAwayState : EnemyWolfBaseState
     }
 
     public override void UpdateState(EnemyWolfStateManager enemy){
-        
+       
         enemy.GetComponent<PatrolEnemy>().Patrol();
+        
+        
         if(enemy.GetComponent<PatrolEnemy>()._startEnemyPos == enemy.transform.position){
             _animations.IsMoving = false;
-            wolfRB.transform.Rotate(0f, 180f, 0f);
             enemy.GetComponent<PatrolEnemy>().m_FacingRight = true;
             enemy.SwitchState(enemy.wolfIdleState);
         }

@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
     public float groundRadius = 0.2f;
     public LayerMask groundMask;
-    //public HealthBar _healtBar;
+    public HealthBar _healtBar;
     private float _inputX;
     private SpawnArrow _spawnArrow;
     private PlayerCombat _playerCombat;
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         _spawnArrow = GetComponent<SpawnArrow>();
         _playerCombat = GetComponent<PlayerCombat>();
         _currentHealth = _healthPlayer;
-        //_healtBar.SetMaxHealth(_healthPlayer);
+        _healtBar.SetMaxHealth(_healthPlayer);
        
         
     }
@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
     }
      
     private void Jump(){
-        Debug.Log("Jump");
+        
         m_body2d.AddForce(transform.up * _jumpForce,ForceMode2D.Impulse);
        
     }
@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
         if(_currentHealth<=0){
             Die();
         }
-        //_healtBar.SetHealth(_currentHealth);
+        _healtBar.SetHealth(_currentHealth);
     }
     private void Die(){
         Destroy(gameObject);

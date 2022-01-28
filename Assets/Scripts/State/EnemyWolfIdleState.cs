@@ -16,10 +16,19 @@ public class EnemyWolfIdleState : EnemyWolfBaseState{
         _animations = enemy.GetComponent<WolfAnimations>();
         Player = GameObject.Find("Player");
         _startEnemyPos = enemy.transform.position;
+        if(Player.transform.position.x<wolfRB.transform.position.x){
+                    wolfRB.transform.Rotate(0f, 180f, 0f);
+    
+                }
+        if(Player.transform.position.x>wolfRB.transform.position.x){
+            wolfRB.transform.Rotate(0f, 180f, 0f);
+        }
         
        
     }
     public override void UpdateState(EnemyWolfStateManager enemy){
+
+        
         if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)<4 ){
             enemy.SwitchState(enemy.wolfMoveState);
         }

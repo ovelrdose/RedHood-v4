@@ -7,6 +7,7 @@ public class EnemyWolfMoveState : EnemyWolfBaseState{
     private WolfAnimations _animations;
     private GameObject Player;
     private bool m_FacingRight = true; 
+    
     public override void EnterState(EnemyWolfStateManager enemy){
         Debug.Log("Wolf walkState");
         wolfRB = enemy.GetComponent<Rigidbody2D>();
@@ -14,10 +15,12 @@ public class EnemyWolfMoveState : EnemyWolfBaseState{
         Player = GameObject.Find("Player"); 
     }
     public override void UpdateState(EnemyWolfStateManager enemy){
-        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)<4){
-            _animations.IsMoving=true;  
+        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)<7){
+            _animations.IsMoving=true; 
+            enemy.GetComponent<CheckVectorMove>().CheckVector(); 
             if (Player.transform.position.x < wolfRB.transform.position.x ){
                 wolfRB.velocity = new Vector2(-1, wolfRB.velocity.y);
+
                 if(!m_FacingRight){
                     wolfRB.transform.Rotate(0f, 180f, 0f);
                     m_FacingRight = !m_FacingRight;
@@ -31,17 +34,17 @@ public class EnemyWolfMoveState : EnemyWolfBaseState{
                 }  
             }
         }
-        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>4){
+        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>7){
             //wolfRB.velocity = new Vector2(0, wolfRB.velocity.y);// тут должен быть переход в новое состояние 
            // _animations.IsMoving=false;
            _animations.IsMoving = true;
            enemy.SwitchState(enemy.wolfAwayState);
             
         }
-        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>4 ){
-            wolfRB.velocity = new Vector2(0, wolfRB.velocity.y);// тут должен быть переход в новое состояние 
-            _animations.IsMoving=false;
-        }
+        // if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>4 ){
+        //     wolfRB.velocity = new Vector2(0, wolfRB.velocity.y);// тут должен быть переход в новое состояние 
+        //     _animations.IsMoving=false;
+        // }
       
     }
     public override void onCollisionEnter(EnemyWolfStateManager enemy){

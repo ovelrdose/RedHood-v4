@@ -3,49 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyWolfMoveState : EnemyWolfBaseState{
-    private Rigidbody2D wolfRB; 
+    private Rigidbody2D _wolfRB; 
     private WolfAnimations _animations;
-    private GameObject Player;
-    private bool m_FacingRight = true; 
+    private GameObject _player;
+    private bool _facingRight = true; 
     
     public override void EnterState(EnemyWolfStateManager enemy){
         Debug.Log("Wolf walkState");
-        wolfRB = enemy.GetComponent<Rigidbody2D>();
+        _wolfRB = enemy.GetComponent<Rigidbody2D>();
         _animations = enemy.GetComponent<WolfAnimations>();
-        Player = GameObject.Find("Player"); 
+        _player = GameObject.Find("Player"); 
     }
     public override void UpdateState(EnemyWolfStateManager enemy){
-        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)<7){
+        if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)<7){
             _animations.IsMoving=true; 
             enemy.GetComponent<CheckVectorMove>().CheckVector(); 
-            if (Player.transform.position.x < wolfRB.transform.position.x ){
-                wolfRB.velocity = new Vector2(-1, wolfRB.velocity.y);
+            if (_player.transform.position.x < _wolfRB.transform.position.x ){
+                _wolfRB.velocity = new Vector2(-1, _wolfRB.velocity.y);
 
-                if(!m_FacingRight){
-                    wolfRB.transform.Rotate(0f, 180f, 0f);
-                    m_FacingRight = !m_FacingRight;
+                if(!_facingRight){
+                    _wolfRB.transform.Rotate(0f, 180f, 0f);
+                    _facingRight = !_facingRight;
                 }
             }
             else{
-                wolfRB.velocity = new Vector2(1, wolfRB.velocity.y);
-                if(m_FacingRight){
-                    wolfRB.transform.Rotate(0f, 180f, 0f);
-                    m_FacingRight = !m_FacingRight;
+                _wolfRB.velocity = new Vector2(1, _wolfRB.velocity.y);
+                if(_facingRight){
+                    _wolfRB.transform.Rotate(0f, 180f, 0f);
+                    _facingRight = !_facingRight;
                 }  
             }
         }
-        if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>7){
-            //wolfRB.velocity = new Vector2(0, wolfRB.velocity.y);// тут должен быть переход в новое состояние 
-           // _animations.IsMoving=false;
+        if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)>7){
            _animations.IsMoving = true;
            enemy.SwitchState(enemy.wolfAwayState);
             
         }
-        // if(Vector2.Distance(Player.transform.position,wolfRB.transform.position)>4 ){
-        //     wolfRB.velocity = new Vector2(0, wolfRB.velocity.y);// тут должен быть переход в новое состояние 
-        //     _animations.IsMoving=false;
-        // }
-      
+     
     }
     public override void onCollisionEnter(EnemyWolfStateManager enemy){
 

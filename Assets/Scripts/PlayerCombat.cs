@@ -11,9 +11,8 @@ public class PlayerCombat : MonoBehaviour
     public float _attackRange = 0.5f;
     public bool _attack = false;
     public Transform attackPoint;
-    public LayerMask enemyMask;
-    public event OnMessage onMessage;
-    public   delegate void OnMessage();
+    public LayerMask EnemyMask;
+    
 
 
 
@@ -36,7 +35,7 @@ public class PlayerCombat : MonoBehaviour
     void AttackEnemy(){
         _attack=true;
         _animations.Combo();
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,_attackRange,enemyMask);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,_attackRange,EnemyMask);
         foreach(Collider2D enemy in hitEnemies){
             
             if(enemy!=null){

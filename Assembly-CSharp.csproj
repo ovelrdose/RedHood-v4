@@ -39,6 +39,8 @@
      <Compile Include="Assets\Scripts\PlayerAnimations.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\FireArrow.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\CheckVectorMove.cs" />
      <Compile Include="Assets\Scripts\State\EnemyWolfStateManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\State\EnemyWolfBaseState.cs" />
@@ -51,8 +53,7 @@
      <Compile Include="Assets\Scripts\MoveEnemy.cs" />
      <Compile Include="Assets\Scripts\State\EnemyWolfIdleState.cs" />
      <Compile Include="Assets\Scripts\State\EnemyWolfAwayState.cs" />
-     <Compile Include="Assets\HealthBar.cs" />
-     <Compile Include="Assets\CheckVectorMove.cs" />
+     <None Include="Assets\image\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

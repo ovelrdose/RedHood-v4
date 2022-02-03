@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private SpawnArrow _spawnArrow;
     private PlayerCombat _playerCombat;
     private float _currentHealth;
+    public bool IsFly;
   
     
  
@@ -43,14 +44,18 @@ public class PlayerController : MonoBehaviour
    
 
     private bool IsFlying(){
-        if(m_body2d.velocity.y<0){
+        
+        if(m_body2d.velocity.y<0 && _isGrounded==false){
+            IsFly = true;
             return true;
         }
         else{
+            IsFly = false;
             return false;
         }
     }
      private void FixedUpdate() {
+        _isGrounded = Physics2D.OverlapCircle(GroundCheck.position,groundRadius,groundMask);
         
        _inputX = Input.GetAxis("Horizontal");
        _isMoving = _inputX!=0?true:false;
@@ -64,16 +69,11 @@ public class PlayerController : MonoBehaviour
        else if (_isMoving &&(_playerCombat._attack==true)){
             Move(_inputX,afterHitSpeed); 
        }
-
+        _animations.IsMoving =_isMoving;  
+        _animations.IsFlying = IsFlying();
     }
     void Update()
     {
-
-
-  
-         
-        _isGrounded = Physics2D.OverlapCircle(GroundCheck.position,groundRadius,groundMask);
-        
         if(Input.GetKeyDown(KeyCode.Space) &&_isGrounded){
             
             Jump();
@@ -81,8 +81,8 @@ public class PlayerController : MonoBehaviour
             
         }
         
-        _animations.IsMoving =_isMoving;  
-        _animations.IsFlying = IsFlying();
+        
+        
         
     }
     

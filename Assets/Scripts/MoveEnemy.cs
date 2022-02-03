@@ -5,17 +5,17 @@ using UnityEngine;
 public class MoveEnemy : MonoBehaviour
 {
     [SerializeField] float m_speed = 4.0f;
-    private Rigidbody2D m_body2d;
-    public bool  _isMoving = true;
+    private Rigidbody2D _body2d;
+    //public bool  isMoving = true;
     private WolfAnimations _animations;
-    private bool m_FacingRight = true; 
+    private bool _facingRight = true; 
     private float _inputX;
-    private Transform Player;
+    private Transform _player;
        void Start()
     {
-        m_body2d = GetComponent<Rigidbody2D>(); 
+        _body2d = GetComponent<Rigidbody2D>(); 
         _animations = GetComponent<WolfAnimations>();
-        Player = GameObject.Find("Player").GetComponent<Transform>();
+        _player = GameObject.Find("Player").GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -28,19 +28,19 @@ public class MoveEnemy : MonoBehaviour
     {   
        
         _animations.IsMoving=true;  
-         if (Player.transform.position.x < transform.position.x ){
-            m_body2d.velocity = new Vector2(-m_speed, m_body2d.velocity.y);
+         if (_player.transform.position.x < transform.position.x ){
+            _body2d.velocity = new Vector2(-m_speed, _body2d.velocity.y);
             
-            if(!m_FacingRight){
+            if(!_facingRight){
                 transform.Rotate(0f, 180f, 0f);
-                m_FacingRight = !m_FacingRight;
+                _facingRight = !_facingRight;
             }
         }
         else{
-            m_body2d.velocity = new Vector2(m_speed, m_body2d.velocity.y);
-            if(m_FacingRight){
+            _body2d.velocity = new Vector2(m_speed, _body2d.velocity.y);
+            if(_facingRight){
                 transform.Rotate(0f, 180f, 0f);
-                m_FacingRight = !m_FacingRight;
+                _facingRight = !_facingRight;
             }
             
         }

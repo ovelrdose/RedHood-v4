@@ -7,9 +7,9 @@ public class EnemyWolfAttack : MonoBehaviour
     private WolfAnimations _animations;
     private PlayerController _playerController;
     private float _damage = 50f;
-    public float _attackRange = 0.5f;
-    public bool _attack = false;
-    public Transform attackPoint;
+    public float AttackRange = 0.5f;
+    public bool Attack = false;
+    public Transform AttackPoint;
     public LayerMask PlayerMask;
     // Start is called before the first frame update
     void Start()
@@ -20,8 +20,8 @@ public class EnemyWolfAttack : MonoBehaviour
 
        void AttackPlayer(){
         
-        _attack=true;
-        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackPoint.position,_attackRange,PlayerMask);
+        Attack=true;
+        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(AttackPoint.position,AttackRange,PlayerMask);
         foreach(Collider2D Player in hitPlayer){
             
             if(Player!=null){
@@ -34,14 +34,14 @@ public class EnemyWolfAttack : MonoBehaviour
        
     }
     private void OnDrawGizmosSelected() {
-        if(attackPoint == null){
+        if(AttackPoint == null){
             return;
         }
-        Gizmos.DrawWireSphere(attackPoint.position,_attackRange);
+        Gizmos.DrawWireSphere(AttackPoint.position,AttackRange);
     }
      IEnumerator ReloadAttack(){
         yield return new WaitForSeconds(0.7f);
-        _attack = false;
+        Attack = false;
     }
     private void OnCollisionEnter2D(Collision2D other) {
         AttackPlayer();

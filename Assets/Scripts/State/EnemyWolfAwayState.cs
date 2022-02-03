@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class EnemyWolfAwayState : EnemyWolfBaseState
 {   
-    private Rigidbody2D wolfRB; 
+    private Rigidbody2D _wolfRB; 
     private WolfAnimations _animations;
-    private GameObject Player;
+    private GameObject _player;
     private Vector3 _startEnemyPos;
-    private bool m_FacingRight = true; 
+    
     public override void EnterState(EnemyWolfStateManager enemy){
         Debug.Log("Wolf Away State");
-        wolfRB = enemy.GetComponent<Rigidbody2D>();
+        _wolfRB = enemy.GetComponent<Rigidbody2D>();
         _animations = enemy.GetComponent<WolfAnimations>();
-        Player = GameObject.Find("Player");
+        _player = GameObject.Find("Player");
         
         
     }

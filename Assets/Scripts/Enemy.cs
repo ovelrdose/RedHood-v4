@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float _health = 100;
-    public bool _isAgred = false;
+    public float Health = 100;
+   
     private WolfAnimations _animations;
     void Start()
     {
@@ -14,9 +14,9 @@ public class Enemy : MonoBehaviour
     }
     
     public void TakeEnemyDamage(float damage){
-        IsAgred();
-        _health -=damage;
-        if(_health<=0){
+        
+        Health -=damage;
+        if(Health<=0){
             Die();
         }
     }
@@ -24,8 +24,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
         Debug.Log("Enemy Die");
     }
-    private void IsAgred(){
-        _isAgred =true;  
-    }
+   
     
 }

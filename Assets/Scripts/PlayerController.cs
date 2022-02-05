@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) &&_isGrounded){
+        if(Input.GetButtonDown("Jump") &&_isGrounded){
             
             Jump();
             _animations.Jump();

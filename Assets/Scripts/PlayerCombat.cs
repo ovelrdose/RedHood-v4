@@ -26,10 +26,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-         if(Input.GetMouseButtonDown(1)&& _attack == false &&_playerController._isGrounded == true){
-            AttackEnemy();
-            StartCoroutine(ReloadAttack());
-        }
+        //  if(Input.GetMouseButtonDown(1)&& _attack == false &&_playerController._isGrounded == true){
+        //     AttackEnemy();
+        //     StartCoroutine(ReloadAttack());
+        // }
     }
 
     void AttackEnemy(){

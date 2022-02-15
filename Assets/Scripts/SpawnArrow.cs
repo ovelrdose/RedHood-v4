@@ -21,7 +21,7 @@ public class SpawnArrow : MonoBehaviour
     void Update()
     {
         
-        if(Input.GetButtonDown("Fire1")&& goArrow == false &&_playerController._isGrounded == true){
+        if(Input.GetMouseButtonDown(1)&& goArrow == false &&_playerController._isGrounded == true){
 
             Shoot();
             _animations.FireArrow();

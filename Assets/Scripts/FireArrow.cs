@@ -8,6 +8,7 @@ public class FireArrow : MonoBehaviour
     public Rigidbody2D _rigidbody_2d;
     private float _damage =20f;
     
+    
 
     
 
@@ -20,6 +21,7 @@ public class FireArrow : MonoBehaviour
         
         Enemy _enemy = hitInfo.GetComponent<Enemy>();
         if(_enemy!=null){
+            
             Debug.Log("We hit");
             _enemy.TakeEnemyDamage(_damage);
         }

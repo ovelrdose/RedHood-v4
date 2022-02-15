@@ -8,6 +8,7 @@ public class EnemyWolfStateManager : MonoBehaviour
     public EnemyWolfIdleState wolfIdleState = new EnemyWolfIdleState();
     public EnemyWolfMoveState wolfMoveState = new EnemyWolfMoveState();
     public EnemyWolfAwayState wolfAwayState = new EnemyWolfAwayState();
+    public EnemyWolfDie wolfDieState = new EnemyWolfDie();
     void Start()
     {
         _currentState = wolfIdleState;

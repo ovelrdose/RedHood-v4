@@ -9,6 +9,7 @@ public class EnemyWolfAwayState : EnemyWolfBaseState
     private GameObject _player;
     private Vector3 _startEnemyPos;
     
+    
     public override void EnterState(EnemyWolfStateManager enemy){
         Debug.Log("Wolf Away State");
         _wolfRB = enemy.GetComponent<Rigidbody2D>();
@@ -16,16 +17,17 @@ public class EnemyWolfAwayState : EnemyWolfBaseState
         _player = GameObject.Find("Player");
         
         
+        
     }
 
     public override void UpdateState(EnemyWolfStateManager enemy){
        
-        enemy.GetComponent<PatrolEnemy>().Patrol();
+        enemy.GetComponent<SwitchStateEnemy>().Patrol();
         
         
-        if(enemy.GetComponent<PatrolEnemy>()._startEnemyPos == enemy.transform.position){
+        if(enemy.GetComponent<SwitchStateEnemy>()._startEnemyPos == enemy.transform.position){
             _animations.IsMoving = false;
-            enemy.GetComponent<PatrolEnemy>().m_FacingRight = true;
+            enemy.GetComponent<SwitchStateEnemy>().m_FacingRight = true;
             enemy.SwitchState(enemy.wolfIdleState);
         }
     }

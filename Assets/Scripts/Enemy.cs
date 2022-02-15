@@ -5,6 +5,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float Health = 100;
+    public float Speed =1f;
+    public float SpeedAway = 2.5f;
+    public bool IsAgred = false;
    
     private WolfAnimations _animations;
     void Start()
@@ -14,16 +17,17 @@ public class Enemy : MonoBehaviour
     }
     
     public void TakeEnemyDamage(float damage){
-        
+        IsAgred = true;
+
         Health -=damage;
-        if(Health<=0){
-            Die();
-        }
+    //     if(Health<=0){
+    //         Die();
+    //     }
     }
-    private void Die(){
-        Destroy(gameObject);
-        Debug.Log("Enemy Die");
-    }
+    // private void Die(){
+    //     Destroy(gameObject);
+    //     Debug.Log("Enemy Die");
+    // }
    
     
 }

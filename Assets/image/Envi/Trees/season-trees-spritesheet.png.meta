@@ -1,0 +1,1212 @@
+fileFormatVersion: 2
+guid: a162f8fe74471384a9432adf4e26b219
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8749211295846871108
+    second: season-trees-spritesheet_0
+  - first:
+      213: -4172845164214431257
+    second: season-trees-spritesheet_1
+  - first:
+      213: -4336290992466102925
+    second: season-trees-spritesheet_2
+  - first:
+      213: -530806412246633885
+    second: season-trees-spritesheet_3
+  - first:
+      213: 2944945467258009590
+    second: season-trees-spritesheet_4
+  - first:
+      213: 1943689492707386168
+    second: season-trees-spritesheet_5
+  - first:
+      213: -2788873847338727012
+    second: season-trees-spritesheet_6
+  - first:
+      213: 4330556163149950357
+    second: season-trees-spritesheet_7
+  - first:
+      213: 5709285284660968188
+    second: season-trees-spritesheet_8
+  - first:
+      213: -49938097522655939
+    second: season-trees-spritesheet_9
+  - first:
+      213: 4150853582774435007
+    second: season-trees-spritesheet_10
+  - first:
+      213: 4710249099544263750
+    second: season-trees-spritesheet_11
+  - first:
+      213: -692767032425188534
+    second: season-trees-spritesheet_12
+  - first:
+      213: 8750421519787468709
+    second: season-trees-spritesheet_13
+  - first:
+      213: -9187135207603269565
+    second: season-trees-spritesheet_14
+  - first:
+      213: -1755072573317791780
+    second: season-trees-spritesheet_15
+  - first:
+      213: -4573114380812613628
+    second: season-trees-spritesheet_16
+  - first:
+      213: 2267500856051715843
+    second: season-trees-spritesheet_17
+  - first:
+      213: 9167440650457303406
+    second: season-trees-spritesheet_18
+  - first:
+      213: 1794175217833838052
+    second: season-trees-spritesheet_19
+  - first:
+      213: 2954174534897075073
+    second: season-trees-spritesheet_20
+  - first:
+      213: 2326038376308784529
+    second: season-trees-spritesheet_21
+  - first:
+      213: -2245727412064262809
+    second: season-trees-spritesheet_22
+  - first:
+      213: 4743236367078593703
+    second: season-trees-spritesheet_23
+  - first:
+      213: -3148377908895540461
+    second: season-trees-spritesheet_24
+  - first:
+      213: 796349897901074170
+    second: season-trees-spritesheet_25
+  - first:
+      213: 482665327686748562
+    second: season-trees-spritesheet_26
+  - first:
+      213: 2631136446920113717
+    second: season-trees-spritesheet_27
+  - first:
+      213: 5459016576365383866
+    second: season-trees-spritesheet_28
+  - first:
+      213: -5001064651700568175
+    second: season-trees-spritesheet_29
+  - first:
+      213: -2327900135599098118
+    second: season-trees-spritesheet_30
+  - first:
+      213: 2071100574492686810
+    second: season-trees-spritesheet_31
+  - first:
+      213: 2783638182550806035
+    second: season-trees-spritesheet_32
+  - first:
+      213: -6815861075274184610
+    second: season-trees-spritesheet_33
+  - first:
+      213: -5459455733175758581
+    second: season-trees-spritesheet_34
+  - first:
+      213: 292446325050364970
+    second: season-trees-spritesheet_35
+  - first:
+      213: -5915999822123323707
+    second: season-trees-spritesheet_36
+  - first:
+      213: -1108881043061666390
+    second: season-trees-spritesheet_37
+  - first:
+      213: 7128966967753922635
+    second: season-trees-spritesheet_38
+  - first:
+      213: -3863972198758759167
+    second: season-trees-spritesheet_39
+  - first:
+      213: 1754243559237308035
+    second: season-trees-spritesheet_40
+  - first:
+      213: 4508182186138084474
+    second: season-trees-spritesheet_41
+  - first:
+      213: 7367641450100984650
+    second: season-trees-spritesheet_42
+  - first:
+      213: 9064146575277026706
+    second: season-trees-spritesheet_43
+  - first:
+      213: 7811830916586696218
+    second: season-trees-spritesheet_44
+  - first:
+      213: -3867552898098154597
+    second: season-trees-spritesheet_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: season-trees-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf46368eae849680800000000000000
+      internalID: -8749211295846871108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1da4c8e631716c0800000000000000
+      internalID: -4172845164214431257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f457215662d3c0800000000000000
+      internalID: -4336290992466102925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3623a81616232a8f0800000000000000
+      internalID: -530806412246633885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77fcaac4c8ed820800000000000000
+      internalID: 2944945467258009590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833ab76ab4f59fa10800000000000000
+      internalID: 1943689492707386168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c998ffd030eeb49d0800000000000000
+      internalID: -2788873847338727012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d6e68d2e9391c30800000000000000
+      internalID: 4330556163149950357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaf491a7b47b3f40800000000000000
+      internalID: 5709285284660968188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d376c90959e4ff0800000000000000
+      internalID: -49938097522655939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7de3675bca9930800000000000000
+      internalID: 4150853582774435007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 301
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c70fd999a2e5140800000000000000
+      internalID: 4710249099544263750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43f130fd0cc266f0800000000000000
+      internalID: -692767032425188534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7add1b20ebf6970800000000000000
+      internalID: 8750421519787468709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3409257443db08080800000000000000
+      internalID: -9187135207603269565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfbc581bcab4a7e0800000000000000
+      internalID: -1755072573317791780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4080f6633b80980c0800000000000000
+      internalID: -4573114380812613628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f4bdcc308c77f10800000000000000
+      internalID: 2267500856051715843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69cbfd43ba493f70800000000000000
+      internalID: 9167440650457303406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e58bcbcad036e810800000000000000
+      internalID: 1794175217833838052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838b0d66165ff820800000000000000
+      internalID: 2954174534897075073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 0
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dbfc1549fb74020800000000000000
+      internalID: 2326038376308784529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 0
+        width: 172
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7656d8d21d295d0e0800000000000000
+      internalID: -2245727412064262809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a41f69585c53d140800000000000000
+      internalID: 4743236367078593703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 0
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b189109f6be44d0800000000000000
+      internalID: -3148377908895540461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6ef4d43043d0b00800000000000000
+      internalID: 796349897901074170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2998a2aee85c2b600800000000000000
+      internalID: 482665327686748562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 0
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eb14a78aca38420800000000000000
+      internalID: 2631136446920113717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 10
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab05a3137a252cb40800000000000000
+      internalID: 5459016576365383866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fff903236a89ab0800000000000000
+      internalID: -5001064651700568175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af638011923a1bfd0800000000000000
+      internalID: -2327900135599098118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad97eb4dff60ebc10800000000000000
+      internalID: 2071100574492686810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e972ebd2871a620800000000000000
+      internalID: 2783638182550806035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 0
+        width: 109
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58ced9c6723961a0800000000000000
+      internalID: -6815861075274184610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d615afed1c34b0800000000000000
+      internalID: -5459455733175758581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 0
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24de78126afe0400800000000000000
+      internalID: 292446325050364970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 0
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cea01f818526eda0800000000000000
+      internalID: -5915999822123323707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 0
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad052201967c90f0800000000000000
+      internalID: -1108881043061666390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 0
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485770bfad2fe260800000000000000
+      internalID: 7128966967753922635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 0
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105cff6e1c9606ac0800000000000000
+      internalID: -3863972198758759167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 0
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4bd50933585810800000000000000
+      internalID: 1754243559237308035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74218b10d7409e30800000000000000
+      internalID: 4508182186138084474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 0
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b86b90dde1f3660800000000000000
+      internalID: 7367641450100984650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29de57b49415acd70800000000000000
+      internalID: 9064146575277026706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e609c64d2396c60800000000000000
+      internalID: 7811830916586696218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: season-trees-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b3de5121b35ac0800000000000000
+      internalID: -3867552898098154597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,9 +9,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Preview.unity
     guid: b7c0a8dd37eb1be40afc9fb695d700fe
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level_1.unity
+    guid: f5e5c1eadf500ac4baf4fb5b27a0531d
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: e94cdbd7661691646a42570badc79388
+    path: Assets/Scenes/Level_2.unity
+    guid: b6f868b8896bdb240a2853ba1ac51b9d
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 580dc3cad6cbdd74d920abf1b30b770f
+  - enabled: 1
+    path: Assets/Scenes/Level_2_1.unity
+    guid: db47fca90c961504c828639e2457cbb3
+  - enabled: 1
+    path: Assets/Scenes/Level_4_Wolf.unity
+    guid: 688ab15797fc179479b755b460566182
+  - enabled: 1
+    path: Assets/Scenes/Level_2_1_Night.unity
+    guid: 90e479230c13d2e42961a6f846889478
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: aaf25bb3856c19f4e8724cb011c1535d
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 45ac7c020deeeec45a44f8d6e4f4e32e
+  - enabled: 0
+    path: Assets/Plugins/TypedScenes/Samples/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/image/Envi/Pixel Art Platformer - Village Props/Scene/SC_Demo_Scene___Village_Props.unity
+    guid: 5e5c889eaffe23c43961576c6b75b6f2
+  - enabled: 0
+    path: Assets/Brackeys/2D Mega Pack/Demo_Scene.unity
+    guid: 3963fa92406ff9a40afc4532cfb14cb2
   m_configObjects: {}

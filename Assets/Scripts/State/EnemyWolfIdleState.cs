@@ -29,7 +29,7 @@ public class EnemyWolfIdleState : EnemyWolfBaseState{
     public override void UpdateState(EnemyWolfStateManager enemy){
 
         
-        if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)<4 ||enemy.GetComponent<Enemy>().IsAgred==true){
+        if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)<5 ||enemy.GetComponent<Enemy>().IsAgred==true){
             enemy.SwitchState(enemy.wolfMoveState);
         }
     }

@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
     
     public TextMeshProUGUI DialogueText;
     public GameObject DialoguePanel;
+    public GameObject DialogueButton;
+
     
     
     void Start()
@@ -19,12 +21,17 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartDialogue(Dialogue dialogue){
+        
         DialoguePanel.SetActive(true);
         _sentences.Clear();
         foreach(string sentence in dialogue.sentences){
             _sentences.Enqueue(sentence);
         }
+        if(_sentences.Count>1){
+            DialogueButton.SetActive(true); 
+        }
         DisplayNextSentence();
+        
     }
     public void DisplayNextSentence(){
         if(_sentences.Count == 0){ // Написать скрипт здесь
@@ -35,6 +42,7 @@ public class DialogueManager : MonoBehaviour
         DialogueText.text = sentence;
     }
     public void EndDialogues(){
+        
         DialoguePanel.SetActive(false);
     }
 }

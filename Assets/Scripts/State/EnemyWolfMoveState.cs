@@ -21,7 +21,7 @@ public class EnemyWolfMoveState : EnemyWolfBaseState{
     public override void UpdateState(EnemyWolfStateManager enemy){
        
             _animations.IsMoving=true; 
-            enemy.GetComponent<CheckVectorMove>().CheckVector(); 
+            enemy.GetComponent<CheckVectorMove>().ChangeBool(); 
             if (_player.transform.position.x < _wolfRB.transform.position.x ){
                 _wolfRB.velocity = new Vector2(-_enemySpeed, _wolfRB.velocity.y);
 
@@ -38,15 +38,19 @@ public class EnemyWolfMoveState : EnemyWolfBaseState{
                 }  
             }
         
-        if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)>7){
-           _animations.IsMoving = true;
-           enemy.GetComponent<Enemy>().IsAgred=false;
-           enemy.SwitchState(enemy.wolfAwayState);
-            
-        }
-        if(_enemyHealth.Health<=0){
-            enemy.SwitchState(enemy.wolfDieState);
-        }
+            if(Vector2.Distance(_player.transform.position,_wolfRB.transform.position)>7){
+            _animations.IsMoving = true;
+            enemy.GetComponent<Enemy>().IsAgred=false;
+            enemy.SwitchState(enemy.wolfAwayState);
+                
+            }
+            if(_enemyHealth.Health<=0){
+                enemy.SwitchState(enemy.wolfDieState);
+            }
+            if(enemy.GetComponent<CheckVectorMove>().WolfFireBack == true){
+                
+                enemy.SwitchState(enemy.wolfAwayState);
+            }
         
      
     }

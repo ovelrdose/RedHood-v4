@@ -8,27 +8,28 @@ public class DialogueTrigger : MonoBehaviour
     private GameObject _player;
     public DialogueManager DialogueManager;
     
-
+    
     void Start()
     {
         _player = GameObject.Find("Player");
        
         
     }
-   private void OnTriggerEnter2D(Collider2D other) {
-       if(other.name=="Player"){
-           FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 
+   private void OnTriggerEnter2D(Collider2D other) {
+       
+       if(other.name =="Player"){
+           
+           FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
        }
    }
-   private void Update() {
-       CountDistance();
+   private void OnTriggerExit2D(Collider2D other) {
+        DialogueManager.EndDialogues();  
+         if(other.name =="Player"){
+        Destroy(gameObject);
+        }
    }
-   void CountDistance(){
-    if(Vector2.Distance(transform.position,_player.transform.position)>3){
-        DialogueManager.EndDialogues();
-    }
-
-   }
+    
+   
   
 }

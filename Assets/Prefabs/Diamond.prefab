@@ -144,5 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480dd19876415f04689c508633190fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shootSpeed: 13
+  _shootSpeed: 10
   _rigidbody_2d: {fileID: 5346215791000758341}

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float m_speed = 4.0f;
     float afterHitSpeed =2f;
     [SerializeField] float _jumpForce = 40f;
-    private float _healthPlayer = 150;
+    public float _healthPlayer = 150f;
 
     public bool _isGrounded = false;
     private Rigidbody2D m_body2d;
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
     }
     
    
-    void Move(float inputX,float m_speed)
+     public void Move(float inputX,float m_speed)
     {
 
         m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);

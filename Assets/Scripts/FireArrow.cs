@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireArrow : MonoBehaviour
 {
-    [SerializeField]private float _shootSpeed = 20f;
+    [SerializeField]private float _shootSpeed = 15f;
     public Rigidbody2D _rigidbody_2d;
     private float _damage =20f;
     
